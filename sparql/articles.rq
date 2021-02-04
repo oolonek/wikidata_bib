@@ -1,5 +1,3 @@
-
-
 #defaultView:Table
 SELECT DISTINCT ?compound ?compoundLabel ?inchikey ?inchi ?smiles_isomeric ?smiles_canonical ?cas ?chebi ?chembl ?pubchem ?taxon ?taxon_name ?taxon_id_gbif ?taxon_id_ncbi ?reference ?reference_doi ?reference_title WHERE {
   ?taxon wdt:P171 ?parent_taxon.
